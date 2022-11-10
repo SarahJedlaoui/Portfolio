@@ -49,7 +49,7 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
+              <a {...styles} className="general-btn" href="https://drive.google.com/file/d/15T9kc8u1EslFMPhLOnr8VDitDAmmzpgL/view?usp=sharing">
                 See my Resume
               </a>
             </div>

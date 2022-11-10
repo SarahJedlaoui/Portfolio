@@ -10,24 +10,23 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Jedlaoui",
-  logo_name: "SJ",
-  full_name: "Sarah Jedlaoui",
+  title2: "Daboussi",
+  logo_name: "HD",
+  full_name: "Hamza Daboussi",
   subTitle:
     "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
-  resumeLink:
-    "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
-  mail: "mailto:im.sarajedlaoui999@gmail.com",
+  resumeLink:"https://drive.google.com/file/d/15T9kc8u1EslFMPhLOnr8VDitDAmmzpgL/view?usp=sharing",
+  mail: "mailto:im.Hamzadaboussi7@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/SarahJedlaoui",
-  linkedin: "https://www.linkedin.com/in/sarah-jedlaoui/",
-  gmail: "Sarajedlaoui999@gmail.com",
-  facebook: "https://www.facebook.com/sarah.jedlaoui/",
-  twitter: "https://twitter.com/sarah-jedlaoui/",
-  instagram: "https://www.instagram.com/sarah_jedlaoui/",
+  github: "https://github.com/Hamzadaboussi",
+  linkedin: "https://www.linkedin.com/in/daboussi-hamza-73a322216/",
+  gmail: "hamzadaboussi7@gmail.com",
+  facebook: "https://www.facebook.com/hamza.daboussi.35",
+ 
+  instagram: "https://www.instagram.com/hamza._.daboussi/",
 };
 
 const skills = {
@@ -320,13 +319,13 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer",
-          company: "Wi-Mobi",
-          company_url: "http://www.wi-mobi.com/home",
-          logo_path: "wimobi.jpg",
-          duration: "Aughst 2021",
-          location: "Mahdia-Tunisia",
-          description: "the objective of this project is to deliver a digital solution for schools so that the administrator can manage teachers and students . \n  ERP module:  Authentication , Student management , Teacher management Keyword: React.js, Firebase",
+          title: "Mobile Developer",
+          company: "Kafel El Yatim",
+          company_url: "https://www.kafel-elyatim.org/fr/",
+          logo_path: "kafel.jpg",
+          duration: "Aughst-September 2021",
+          location: "Ariana-Tunisia",
+          description: "the objective of this project is to deliver a digital solution for sharity organization so that the administrators can manage stocks . ",
            
           color: "#0071C5",
         },
@@ -348,7 +347,7 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "IEEE Computer society vice chair ",
+          title: "IEEE Computer society Member ",
           company: "IEEE",
           company_url: "https://www.ieee.org/",
           logo_path: "IEEE.jpg",
@@ -402,7 +401,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create React projects, NodeJS Backend Projects, Python Scripts. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create Flutter projects, NodeJS Backend Projects, Python Scripts. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -410,7 +409,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpeg",
+    profile_image_path: "hamza.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -421,14 +420,14 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "School Website",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
+      name: "sharity application",
+      url: "https://github.com/Hamzadaboussi/Kafel-Elyatim",
       description:
-       " A digital solution for school's administrator to manage the teachers and students in their shcool. ",
+       "a digital solution for sharity organization so that the administrators can manage stocks. ",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "flutter",
+          iconifyClass: "flutter",
         },
         {
           name: "CSS3",
