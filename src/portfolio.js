@@ -16,7 +16,8 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
+  "https://drive.google.com/file/d/1-M59Yh-oF-BFO_398q2e_Zb6bSr7up7_/view?usp=sharing",
+   // "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
   mail: "mailto:im.sarajedlaoui999@gmail.com",
 };
 
@@ -290,7 +291,7 @@ const certifications = {
       subtitle: "Competitive Programming Workshops & Webinars",
       logo_path: "psd.PNG",
       certificate_link:
-        "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
+        "https://drive.google.com/file/d/1Voqjw_ruLuHEc_TWVFhWQcAUkaad9tLw/view?usp=sharing",
       alt_name: "Opensource Event",
       color_code: "#fefd7b",
     },
@@ -337,10 +338,7 @@ const experience = {
           logo_path: "RWS.png",
           duration: "Aug 2020 - Sept 2020",
           location: "Remote",
-          description: `the objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes.
-          `,
-         //"Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          description: `the objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes. `,          color: "#ee3c26",
         },
       ],
     },
@@ -369,17 +367,7 @@ const experience = {
             "i was in 'Incoming Exchange Global Internship Program' department, my role was to contact the companies and try to negociate with them so they can offer us opportunities for the global interns. Then we do interviews for the condiadtes to see if they are qualified to work in the company. And when my mates complete the procuders of papers so the interns can came to tunisia and when they do i take care of their needs and see if they needs anything and if the company is satisfied or not ",
           color: "#a60000",
         },
-        {
-          title: "Machine Learning - Research associate",
-          company: "Next Tech Lab",
-          company_url: "https://nextech.io/",
-          logo_path: "NTL.jfif",
-          duration: "Oct 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
-          color: "#62cff0",
-        },
+       
         {
           title: "4C Ambassador",
           company: "Skills Certification and Career Centers",
@@ -410,7 +398,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpeg",
+    profile_image_path: "profile_photo_2.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -475,32 +463,6 @@ const projects = {
         {
           name: "MongoDb",
           iconifyClass: "logos-mongodb",
-        },
-       
-      ],
-    },
-    {
-      id: "2",
-      name: "Event Scheduler",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
-      description:
-        "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
         },
        
       ],
