@@ -364,7 +364,7 @@ const experience = {
           duration: "Nov 2020 - Present",
           location: "AIESEC Hadrumet Sousse Tunisia",
           description:
-            "i was in 'Incoming Exchange Global Internship Program' department, my role was to contact the companies and try to negociate with them so they can offer us opportunities for the global interns. Then we do interviews for the condiadtes to see if they are qualified to work in the company. And when my mates complete the procuders of papers so the interns can came to tunisia and when they do i take care of their needs and see if they needs anything and if the company is satisfied or not ",
+            "i was in 'Incoming Exchange Global Internship Program' department, my role was to contact the companies and try to negociate with them so they can offer us opportunities for the global interns. Then we interview the candidates to see if they are qualified to work in the company. So i take care of their needs and see if they needs anything and if the company is satisfied or not ",
           color: "#a60000",
         },
        
@@ -410,7 +410,7 @@ const projects = {
     {
       id: "0",
       name: "School Website",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
+      url: "https://github.com/SarahJedlaoui/site-d-cole",
       description:
        " A digital solution for school's administrator to manage the teachers and students in their shcool. ",
       languages: [
@@ -440,7 +440,7 @@ const projects = {
     {
       id: "1",
       name: "Online Librerie",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
+      url: "",
       description:
        "A online librerie where u can search or read any book using Google Books API, with a recommandation system and personal interface.",
       languages: [
@@ -471,7 +471,7 @@ const projects = {
     {
       id: "3",
       name: "Moving Website",
-      url: "https://github.com/vvHacker007/Calculator",
+      url: "https://github.com/SarahJedlaoui/d-m-nagement",
       description:
       "A digital solution for moving companies to get informations about their customers and give them quotes.      ",
 
@@ -497,29 +497,21 @@ const projects = {
       ],
     },
     
+    
     {
-      id: "3",
-      name: "Calculator",
-      url: "https://github.com/vvHacker007/Calculator",
+      id: "4",
+      name: "E-commerce Web Site",
+      url: "https://github.com/SarahJedlaoui/e-commerce",
       description:
-        "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+"the objective of this project is to deliver a digital solution as an e-commerce web site for a client  where he can add items to sell via his admin dashboard.",
       languages: [
         {
           name: "Python",
           iconifyClass: "logos-python",
         },
-      ],
-    },
-    {
-      id: "4",
-      name: "Notepad",
-      url: "https://github.com/vvHacker007/Notepad",
-      description:
-        "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
         },
       ],
     },
@@ -528,13 +520,14 @@ const projects = {
     {
       id: "5",
       name: "Mini Paint",
-      url: "https://github.com/vvHacker007/Mini-Paint",
+      url: "https://github.com/SarahJedlaoui/MiniPaint",
       description: "GUI based Mini Paint Application.",
       languages: [
         {
           name: "Python",
           iconifyClass: "logos-python",
         },
+        
       ],
     },
    
@@ -542,7 +535,7 @@ const projects = {
     {
       id: "6",
       name: "Snake",
-      url: "https://github.com/vvHacker007/Snake",
+      url: "https://github.com/SarahJedlaoui/Snake",
       description:
         "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
       languages: [
@@ -582,7 +575,7 @@ const projects = {
     {
       id: "8",
       name: "Portfolio Website",
-      url: "https://vvhacker007.github.io/Portfolio/",
+      url: "https://github.com/SarahJedlaoui/Portfolio",
       description: "You are stalking it right now 😉",
       languages: [
         {
