@@ -506,8 +506,8 @@ const projects = {
 "the objective of this project is to deliver a digital solution as an e-commerce web site for a client  where he can add items to sell via his admin dashboard.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Php",
+          iconifyClass: "logos-php",
         },
         {
           name: "Laravel",
