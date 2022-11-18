@@ -440,7 +440,7 @@ const projects = {
     {
       id: "1",
       name: "Online Librerie",
-      url: "",
+      url: "https://github.com/SarahJedlaoui/Readify-Frontend/tree/main/Readify-Frontend-master",
       description:
        "A online librerie where u can search or read any book using Google Books API, with a recommandation system and personal interface.",
       languages: [
