@@ -16,8 +16,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
-  "https://drive.google.com/file/d/1-M59Yh-oF-BFO_398q2e_Zb6bSr7up7_/view?usp=sharing",
-   // "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
+  "https://www.dropbox.com/scl/fi/46vbc3o2hdx9pz2143q5u/SarahResume.pdf?dl=0&rlkey=dzi3dpz026eh56z901i4lr2cz",
   mail: "mailto:im.sarajedlaoui999@gmail.com",
 };
 
@@ -336,9 +335,18 @@ const experience = {
           company: "Responsive Web Systems",
           company_url: "https://responsive-web-systems.com/",
           logo_path: "RWS.png",
-          duration: "Aug 2020 - Sept 2020",
+          duration: "Aug 2022 - Sept 2022",
           location: "Remote",
           description: `the objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes. `,          color: "#ee3c26",
+        },
+        {
+          title: "Full stack MERN developer ",
+          company: "OG Technologies EU",
+          company_url: "https://www.ogtechnologies.co/",
+          logo_path: "OG.png",
+          duration: "Mars 2023 - Sept 2023",
+          location: "Vienna,Austria",
+          description: `the objective of this project is to create an interactive and complete platform dedicated to learning Web3 and Blockchain skills : https://edunode.org  `,          color: "#ee3c26",
         },
       ],
     },
@@ -390,7 +398,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create React projects, NodeJS Backend Projects, Python Scripts. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create React projects, NodeJS Backend Projects, Python Scripts. And i'am open to learn new skills. Below are some of my projects. Note : click on the project to redirect you to the link.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -398,7 +406,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpg",
+    profile_image_path: "sara.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -407,6 +415,75 @@ const contactPageData = {
 
 const projects = {
   data: [
+    {
+      id: "0",
+      name: "EduNode",
+      url: "https://edunode.org",
+      description:
+       " A digital solution to create an interactive and complete platform dedicated to learning Web3 and Blockchain skills ",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "MongoDb",
+          iconifyClass: "logos-mongodb",
+        },
+        
+       
+      ],
+    },
+    {
+      id: "0",
+      name: "OG Technologies Website",
+      url: "https://ogtechnologies.co",
+      description:
+       " A Website for OG Technologies Start-up to get in touch with their clients and inform them about their products.",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "MongoDb",
+          iconifyClass: "logos-mongodb",
+        },
+        
+       
+      ],
+    },
+    {
+      id: "0",
+      name: "MozartPay",
+      url: "https://mozartpay.com",
+      description:
+       " A digital solution for online business payments . (still in progress)",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "MongoDb",
+          iconifyClass: "logos-mongodb",
+        },
+        
+       
+      ],
+    },
     {
       id: "0",
       name: "School Website",
