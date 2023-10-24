@@ -9,12 +9,12 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Amira 9ahba 👋.",
-  title2: "Ghommam",
-  logo_name: "AG",
-  full_name: "Amira Ghommam",
+  title: "Hello 👋.",
+  title2: "Jedlaoui",
+  logo_name: "SJ",
+  full_name: "Sarah Jedlaoui",
   subTitle:
-    "Full time Hoe, if you wanna have sex don't hesitate to call me, I'm always horny! ;)",
+    "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
   "https://www.dropbox.com/scl/fi/46vbc3o2hdx9pz2143q5u/SarahResume.pdf?dl=0&rlkey=dzi3dpz026eh56z901i4lr2cz",
   mail: "mailto:im.sarajedlaoui999@gmail.com",
