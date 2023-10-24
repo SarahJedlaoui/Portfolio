@@ -9,7 +9,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Amira 9ahba 👋.",
   title2: "Jedlaoui",
   logo_name: "SJ",
   full_name: "Sarah Jedlaoui",
