@@ -14,17 +14,18 @@ const greeting = {
   logo_name: "SJ",
   full_name: "Sarah Jedlaoui",
   subTitle:
-    "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
+    //"Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
+    "Currently a full stack software engineer at Bridges Engineering. I am committed to continuous development and learning, always exploring new technologies and best practices to deliver innovative and efficient solutions.",
   resumeLink:
-  "https://www.dropbox.com/scl/fi/46vbc3o2hdx9pz2143q5u/SarahResume.pdf?dl=0&rlkey=dzi3dpz026eh56z901i4lr2cz",
-  mail: "mailto:im.sarajedlaoui999@gmail.com",
+    "https://drive.google.com/file/d/1wz8GJFNWTACPQycX2S6b6wOBYMZAJA36/view?usp=sharing",
+  mail: "mailto:im.sarajedlaoui99@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/SarahJedlaoui",
   linkedin: "https://www.linkedin.com/in/sarah-jedlaoui/",
-  gmail: "Sarajedlaoui999@gmail.com",
+  gmail: "Sarajedlaoui99@gmail.com",
   facebook: "https://www.facebook.com/sarah.jedlaoui/",
   twitter: "https://twitter.com/sarah-jedlaoui/",
   instagram: "https://www.instagram.com/sarah_jedlaoui/",
@@ -100,7 +101,7 @@ const skills = {
             color: "#339933",
           },
         },
-        
+
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -108,20 +109,20 @@ const skills = {
             color: "#439743",
           },
         },
-         {
-           skillName: "GraphQL",
-           fontAwesomeClassname: "simple-icons:graphql",
-           style: {
-             color: "#DE33A6",
-           },
-         },
-         {
-           skillName: "Android",
-           fontAwesomeClassname: "simple-icons:android",
-           style: {
-             color: "#3DDC84",
-           },
-         },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#DE33A6",
+          },
+        },
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#3DDC84",
+          },
+        },
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -129,7 +130,7 @@ const skills = {
             color: "#f89820",
           },
         },
-         
+
         {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
@@ -153,11 +154,11 @@ const skills = {
         // },
         {
           skillName: "Wordpress",
-         fontAwesomeClassname: "simple-icons:wordpress",
+          fontAwesomeClassname: "simple-icons:wordpress",
           style: {
             color: "#207297",
           },
-         },
+        },
         // {
         //   skillName: "Apache",
         //   fontAwesomeClassname: "simple-icons:apache",
@@ -200,7 +201,7 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        
+
         "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
@@ -211,7 +212,7 @@ const skills = {
             color: "#FF9900",
           },
         },
-        
+
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -233,12 +234,12 @@ const skills = {
             color: "#47A248",
           },
         },
-         {
+        {
           skillName: "Docker",
-           fontAwesomeClassname: "simple-icons:docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-             color: "#1488C6",
-           },
+            color: "#1488C6",
+          },
         },
         {
           skillName: "GitHub Actions",
@@ -259,9 +260,9 @@ const degrees = {
       subtitle: "Bachelors in Computer Science and Engineering",
       logo_path: "issat.jpg",
       alt_name: "SSEC",
-      duration: "2018 - 2022",
+      duration: "2018 - 2023",
       descriptions: [
-        "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
+        "⚡ I completed my Engineering degree in Computer Science.",
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Ftontend, Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
@@ -274,17 +275,26 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "AIESEC Certification",
+      subtitle: "Leadership Development Experience",
+      logo_path: "AIESEC.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/1wDhQWKi4JXj_K2B2G40cIAqCsyYzASLu/view?usp=sharing",
+
+      // color_code: "#2AAFED",
+      color_code: "#2AAFED",
+    },
+    {
       title: "Microsoft",
       subtitle: "MICODING WebCompetition",
       logo_path: "Microsoftt.png",
       certificate_link:
         "https://drive.google.com/file/d/1OuglV-l6mSJJN7Ja2_ntskxit6QRXJit/view?usp=sharing",
-    
+
       // color_code: "#2AAFED",
       color_code: "#2AAFED",
     },
-    
-   
+
     {
       title: "Problem Solving Division",
       subtitle: "Competitive Programming Workshops & Webinars",
@@ -294,8 +304,7 @@ const certifications = {
       alt_name: "Opensource Event",
       color_code: "#fefd7b",
     },
-  
-   
+
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -313,7 +322,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed three internships and i'm currently working for a Startup called Bridges Engineering as a full stack developer. I've mostly done projects on my own. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -326,8 +335,9 @@ const experience = {
           logo_path: "wimobi.jpg",
           duration: "Aughst 2021",
           location: "Mahdia-Tunisia",
-          description: "the objective of this project is to deliver a digital solution for schools so that the administrator can manage teachers and students . \n  ERP module:  Authentication , Student management , Teacher management Keyword: React.js, Firebase",
-           
+          description:
+            "The objective of this project is to deliver a digital solution for schools so that the administrator can manage teachers and students . \n  ERP module:  Authentication , Student management , Teacher management Keyword: React.js, Firebase",
+
           color: "#0071C5",
         },
         {
@@ -337,7 +347,8 @@ const experience = {
           logo_path: "RWS.png",
           duration: "Aug 2022 - Sept 2022",
           location: "Remote",
-          description: `the objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes. `,          color: "#ee3c26",
+          description: `The objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes. `,
+          color: "#ee3c26",
         },
         {
           title: "Full stack MERN developer ",
@@ -346,7 +357,18 @@ const experience = {
           logo_path: "OG.png",
           duration: "Mars 2023 - Sept 2023",
           location: "Vienna,Austria",
-          description: `the objective of this project is to create an interactive and complete platform dedicated to learning Web3 and Blockchain skills : https://edunode.org  `,          color: "#ee3c26",
+          description: `The objective of this project is to create an interactive and complete platform dedicated to learning Web3 and Blockchain skills : https://edunode.org  `,
+          color: "#ee3c26",
+        },
+        {
+          title: "Full stack developer ",
+          company: "Bridges Engineering",
+          company_url: "https://www.theleap.studio/",
+          logo_path: "bridges.jpeg",
+          duration: "October 2023 - Present",
+          location: "Sousse,Tunsia",
+          description: `My mission is to create prototype websites and applications for various project ideas. These prototypes are presented to clients for approval, and upon receiving approval, I proceed to fully develop the projects. `,
+          color: "#ee3c26",
         },
       ],
     },
@@ -375,7 +397,7 @@ const experience = {
             "i was in 'Incoming Exchange Global Internship Program' department, my role was to contact the companies and try to negociate with them so they can offer us opportunities for the global interns. Then we interview the candidates to see if they are qualified to work in the company. So i take care of their needs and see if they needs anything and if the company is satisfied or not ",
           color: "#a60000",
         },
-       
+
         {
           title: "4C Ambassador",
           company: "Skills Certification and Career Centers",
@@ -387,8 +409,6 @@ const experience = {
             "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
           color: "#0059c9",
         },
-       
-       
       ],
     },
   ],
@@ -398,7 +418,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create React projects, NodeJS Backend Projects, Python Scripts. And i'am open to learn new skills. Below are some of my projects. Note : click on the project to redirect you to the link.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create React/Nextjs projects, NodeJS Backend Projects, Python Scripts. And i'am open to learn new skills. Below are some of my projects. Note : click on the project to redirect you to the link.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -410,17 +430,37 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
- 
 };
 
 const projects = {
   data: [
     {
       id: "0",
+      name: "Kanteen",
+      url: "https://www.kanteen.info/",
+      description:
+        " A digital solution to create an interactive and complete platform dedicated to promote restaurants.",
+      languages: [
+        {
+          name: "AWS",
+          iconifyClass: "logos-aws",
+        },
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "0",
       name: "EduNode",
       url: "https://edunode.org",
       description:
-       " A digital solution to create an interactive and complete platform dedicated to learning Web3 and Blockchain skills ",
+        " A digital solution to create an interactive and complete platform dedicated to learning Web3 and Blockchain skills ",
       languages: [
         {
           name: "JavaScript",
@@ -434,8 +474,6 @@ const projects = {
           name: "MongoDb",
           iconifyClass: "logos-mongodb",
         },
-        
-       
       ],
     },
     {
@@ -443,7 +481,7 @@ const projects = {
       name: "OG Technologies Website",
       url: "https://ogtechnologies.co",
       description:
-       " A Website for OG Technologies Start-up to get in touch with their clients and inform them about their products.",
+        " A Website for OG Technologies Start-up to get in touch with their clients and inform them about their products.",
       languages: [
         {
           name: "TypeScript",
@@ -457,8 +495,6 @@ const projects = {
           name: "MongoDb",
           iconifyClass: "logos-mongodb",
         },
-        
-       
       ],
     },
     {
@@ -466,7 +502,7 @@ const projects = {
       name: "MozartPay",
       url: "https://mozartpay.com",
       description:
-       " A digital solution for online business payments . (still in progress)",
+        " A digital solution for online business payments . (still in progress)",
       languages: [
         {
           name: "TypeScript",
@@ -480,8 +516,6 @@ const projects = {
           name: "MongoDb",
           iconifyClass: "logos-mongodb",
         },
-        
-       
       ],
     },
     {
@@ -489,7 +523,7 @@ const projects = {
       name: "School Website",
       url: "https://github.com/SarahJedlaoui/site-d-cole",
       description:
-       " A digital solution for school's administrator to manage the teachers and students in their shcool. ",
+        " A digital solution for school's administrator to manage the teachers and students in their shcool. ",
       languages: [
         {
           name: "HTML5",
@@ -511,15 +545,15 @@ const projects = {
           name: "Fire Base",
           iconifyClass: "logos-firebase",
         },
-       
       ],
     },
     {
       id: "1",
       name: "Online Librerie",
-      url: "https://github.com/SarahJedlaoui/Readify-Frontend/tree/main/Readify-Frontend-master",
+      url:
+        "https://github.com/SarahJedlaoui/Readify-Frontend/tree/main/Readify-Frontend-master",
       description:
-       "A online librerie where u can search or read any book using Google Books API, with a recommandation system and personal interface.",
+        "A online librerie where u can search or read any book using Google Books API, with a recommandation system and personal interface.",
       languages: [
         {
           name: "HTML5",
@@ -541,46 +575,42 @@ const projects = {
           name: "MongoDb",
           iconifyClass: "logos-mongodb",
         },
-       
       ],
     },
-    
+
     {
       id: "3",
       name: "Moving Website",
       url: "https://github.com/SarahJedlaoui/d-m-nagement",
       description:
-      "A digital solution for moving companies to get informations about their customers and give them quotes.      ",
+        "A digital solution for moving companies to get informations about their customers and give them quotes.      ",
 
       languages: [
-        
-          {
-            name: "HTML5",
-            iconifyClass: "vscode-icons:file-type-html",
-          },
-          {
-            name: "CSS3",
-            iconifyClass: "vscode-icons:file-type-css",
-          },
-          {
-            name: "JavaScript",
-            iconifyClass: "logos-javascript",
-          },
-          {
-            name: "React",
-            iconifyClass: "logos-react",
-          },
-         
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
       ],
     },
-    
-    
+
     {
       id: "4",
       name: "E-commerce Web Site",
       url: "https://github.com/SarahJedlaoui/e-commerce",
       description:
-"the objective of this project is to deliver a digital solution as an e-commerce web site for a client  where he can add items to sell via his admin dashboard.",
+        "the objective of this project is to deliver a digital solution as an e-commerce web site for a client  where he can add items to sell via his admin dashboard.",
       languages: [
         {
           name: "Php",
@@ -592,8 +622,7 @@ const projects = {
         },
       ],
     },
-   
-    
+
     {
       id: "5",
       name: "Mini Paint",
@@ -604,11 +633,9 @@ const projects = {
           name: "Python",
           iconifyClass: "logos-python",
         },
-        
       ],
     },
-   
-   
+
     {
       id: "6",
       name: "Snake",
@@ -622,7 +649,7 @@ const projects = {
         },
       ],
     },
-    
+
     {
       id: "7",
       name: "Blood Donation Predictor",
@@ -648,7 +675,7 @@ const projects = {
         },
       ],
     },
-    
+
     {
       id: "8",
       name: "Portfolio Website",
