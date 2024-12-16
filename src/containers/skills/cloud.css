@@ -1,4 +1,3 @@
-/* FeelingProud.css */
 .feeling-proud-img {
   height: 600px;
   width: 600px;
@@ -10,6 +9,6 @@
   .feeling-proud-img {
     height: 300px;
     width: 300px;
-    margin-left: 60px;
+    margin-left: 40px;
   }
 }

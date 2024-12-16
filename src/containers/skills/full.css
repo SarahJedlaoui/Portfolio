@@ -1,15 +1,14 @@
-/* FeelingProud.css */
 .feeling-proud-img {
-  height: 600px;
-  width: 600px;
+  height: 800px;
+  width: 800px;
   margin-left: 50px;
 }
 
 /* Mobile styles */
 @media (max-width: 768px) {
   .feeling-proud-img {
-    height: 300px;
-    width: 300px;
-    margin-left: 60px;
+    height: 600px;
+    width: 600px;
+    margin-left: 40px;
   }
 }
