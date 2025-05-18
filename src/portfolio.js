@@ -14,8 +14,7 @@ const greeting = {
   logo_name: "SJ",
   full_name: "Sarah Jedlaoui",
   subTitle:
-    //"Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
-    "Currently a full stack software engineer at Bridges Engineering. I am committed to continuous development and learning, always exploring new technologies and best practices to deliver innovative and efficient solutions.",
+    "Full-Stack Software Engineer with expertise in web development, AI integration, and cloud architectures. Skilled in building scalable, high-performance solutions and leading teams. Focused on algorithm optimization and delivering innovative, user-centric applications.",
   resumeLink:
     "https://drive.google.com/file/d/1wz8GJFNWTACPQycX2S6b6wOBYMZAJA36/view?usp=sharing",
   mail: "mailto:im.sarajedlaoui99@gmail.com",
@@ -38,8 +37,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive UI and UX for web applications",
-        "⚡ Building responsive website front end using ReactJS and back end using Firebase ",
         "⚡ Creating a web site using full stack MERN ",
+        "⚡ Building responsive website front end using ReactJS and back end using Firebase ",
         "⚡ Creating a mini game using Java",
         "⚡ Integration of third party services such as Firebase/ AWS ",
       ],
@@ -201,8 +200,10 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-
         "⚡ Experience with Continuous Integration",
+        "⚡ Deployed full-stack apps using cloud services and domain configurations",
+        "⚡ Hands-on with hosting static sites, using CDN and SSL",
+        "⚡ Experience connecting cloud-hosted backends to web/mobile frontends",
       ],
       softwareSkills: [
         {
@@ -329,25 +330,13 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer",
-          company: "Wi-Mobi",
-          company_url: "http://www.wi-mobi.com/home",
-          logo_path: "wimobi.jpg",
-          duration: "Aughst 2021",
-          location: "Mahdia-Tunisia",
-          description:
-            "The objective of this project is to deliver a digital solution for schools so that the administrator can manage teachers and students . \n  ERP module:  Authentication , Student management , Teacher management Keyword: React.js, Firebase",
-
-          color: "#0071C5",
-        },
-        {
-          title: "Full stack JS developer ",
-          company: "Responsive Web Systems",
-          company_url: "https://responsive-web-systems.com/",
-          logo_path: "RWS.png",
-          duration: "Aug 2022 - Sept 2022",
-          location: "Remote",
-          description: `The objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes. `,
+          title: "Full stack developer ",
+          company: "Bridges Engineering",
+          company_url: "https://www.theleap.studio/",
+          logo_path: "bridges.jpeg",
+          duration: "October 2023 - Present",
+          location: "Sousse,Tunsia",
+          description: `My mission is to create prototype websites and applications for various project ideas. These prototypes are presented to clients for approval, and upon receiving approval, I proceed to fully develop the projects. `,
           color: "#ee3c26",
         },
         {
@@ -361,14 +350,26 @@ const experience = {
           color: "#ee3c26",
         },
         {
-          title: "Full stack developer ",
-          company: "Bridges Engineering",
-          company_url: "https://www.theleap.studio/",
-          logo_path: "bridges.jpeg",
-          duration: "October 2023 - Present",
-          location: "Sousse,Tunsia",
-          description: `My mission is to create prototype websites and applications for various project ideas. These prototypes are presented to clients for approval, and upon receiving approval, I proceed to fully develop the projects. `,
+          title: "Full stack JS developer ",
+          company: "Responsive Web Systems",
+          company_url: "https://responsive-web-systems.com/",
+          logo_path: "RWS.png",
+          duration: "Aug 2022 - Sept 2022",
+          location: "Remote",
+          description: `The objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes. `,
           color: "#ee3c26",
+        },
+        {
+          title: "Full Stack Developer",
+          company: "Wi-Mobi",
+          company_url: "http://www.wi-mobi.com/home",
+          logo_path: "wimobi.jpg",
+          duration: "Aughst 2021",
+          location: "Mahdia-Tunisia",
+          description:
+            "The objective of this project is to deliver a digital solution for schools so that the administrator can manage teachers and students . \n  ERP module:  Authentication , Student management , Teacher management Keyword: React.js, Firebase",
+
+          color: "#0071C5",
         },
       ],
     },
@@ -434,6 +435,75 @@ const contactPageData = {
 
 const projects = {
   data: [
+    {
+      id: "0",
+      name: "EasyCollect",
+      url: "https://easycollect.vercel.app/",
+      description:
+        "EasyCollect is a streamlined service for EasyBank customers, making it easier and faster to apply for bank loans with a user-friendly and secure platform.",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "0",
+      name: "Sophia.ai Prototype 1 ",
+      url: "https://sophiaai.vercel.app/",
+      description:
+        "Sophia.ai– Personalized Coaching Powered by AI transforms your favorite content—podcasts, videos, Instagram Reels, and books—into tailored coaching sessions. ",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "0",
+      name: "AVS Prototype3",
+      url: "https://avs-3.vercel.app/",
+      description:
+        "This version introduces prompt-building support to help users craft more effective AI queries and enables testing of data extraction workflows.",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "AVS Prototype2",
+      url: "https://avs-2.vercel.app/",
+      description:
+        "AVS 2.0 is an enhanced After-Visit Summary (AVS) application that allows users to interact directly with AI to extract and personalize their medical information.",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+
     {
       id: "0",
       name: "Kanteen",
