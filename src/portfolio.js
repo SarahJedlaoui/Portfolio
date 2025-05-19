@@ -437,6 +437,23 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "PostGen",
+      url: "https://sophia-post.vercel.app/",
+      description:
+        "PostGen helps users turn their thoughts into compelling social media content. By choosing a trending topic and answering a few guided questions, users get AI-generated posts tailored to their voice.",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "0",
       name: "EasyCollect",
       url: "https://easycollect.vercel.app/",
       description:
