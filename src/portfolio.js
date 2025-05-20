@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "Full-Stack Software Engineer with expertise in web development, AI integration, and cloud architectures. Skilled in building scalable, high-performance solutions and leading teams. Focused on algorithm optimization and delivering innovative, user-centric applications.",
   resumeLink:
-    "https://drive.google.com/file/d/1wz8GJFNWTACPQycX2S6b6wOBYMZAJA36/view?usp=sharing",
+    "https://drive.google.com/file/d/18mlWSMHJkWtahcTVZZ4YudrhZ5TeKUZw/view?usp=sharing",
   mail: "mailto:im.sarajedlaoui99@gmail.com",
 };
 
