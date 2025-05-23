@@ -455,7 +455,7 @@ const projects = {
     {
       id: "0",
       name: "EasyCollect",
-      url: "https://easycollect.vercel.app/",
+      url: "https://dev-collect.easybank.tn/",
       description:
         "EasyCollect is a streamlined service for EasyBank customers, making it easier and faster to apply for bank loans with a user-friendly and secure platform.",
       languages: [
