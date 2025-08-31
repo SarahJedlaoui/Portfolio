@@ -37,9 +37,9 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive UI and UX for web applications",
-        "⚡ Creating a web site using full stack MERN ",
-        "⚡ Building responsive website front end using ReactJS and back end using Firebase ",
-        "⚡ Creating a mini game using Java",
+        "⚡ Create a web site using full stack MERN ",
+        "⚡ Build responsive website front end using ReactJS and back end using Python ",
+        "⚡ Create a mini game using Java",
         "⚡ Integration of third party services such as Firebase/ AWS ",
       ],
       softwareSkills: [
@@ -336,7 +336,12 @@ const experience = {
           logo_path: "bridges.jpeg",
           duration: "October 2023 - Present",
           location: "Sousse,Tunsia",
-          description: `My mission is to create prototype websites and applications for various project ideas. These prototypes are presented to clients for approval, and upon receiving approval, I proceed to fully develop the projects. `,
+          description: `• Designed and developed multiple full-stack platforms using the MERN stack, Next.js, and TypeScript, delivering scalable, high-performance web applications.
+• Built a SaaS platform that increased client engagement by 35% and reduced load times by 50%.
+• Created AI-powered features for Instagram promotional videos, boosting user interaction by 40%.
+• Developed and maintained robust RESTful APIs and microservices with Node.js, MongoDB, and AWS services (S3, DynamoDB).
+• Led front-end architecture optimizations with React and TypeScript, cutting load times by 45%.
+• Conducted code reviews and enhanced CI/CD pipelines, improving development efficiency by 20%.`,
           color: "#ee3c26",
         },
         {
@@ -346,7 +351,12 @@ const experience = {
           logo_path: "OG.png",
           duration: "Mars 2023 - Sept 2023",
           location: "Vienna,Austria",
-          description: `The objective of this project is to create an interactive and complete platform dedicated to learning Web3 and Blockchain skills : https://edunode.org  `,
+          description: `• Created a full-stack MERN-based e-learning platform used by 1,500+ active users, increasing student engagement by 30%.
+• Implemented interactive UI components using React.js & Redux, reducing bounce rates by 20%.
+• Optimized database performance, reducing query response times by 40%.
+• Enhanced security measures (JWT, OAuth), ensuring 100% data privacy compliance.
+• Conducted usability testing, refining features based on user feedback and accessibility standards.
+• https://edunode.org  `,
           color: "#ee3c26",
         },
         {
@@ -356,7 +366,11 @@ const experience = {
           logo_path: "RWS.png",
           duration: "Aug 2022 - Sept 2022",
           location: "Remote",
-          description: `The objective of this project is to deliver a digital solution for moving companies to get informations about their customers and give them quotes. `,
+          description: `• Designed and launched a web platform for moving companies, streamlining customer request management.
+• Developed intuitive user interfaces using React.js, improving user experience and responsiveness.
+• Deployed RESTful backend services with Node.js & Express, improving API response time by 30%.
+• Assisted in testing, debugging, and performance optimization.
+• Worked with a team to refine system features based on user needs.`,
           color: "#ee3c26",
         },
         {

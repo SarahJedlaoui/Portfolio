@@ -55,7 +55,7 @@ function ExperienceCard(props) {
         </div>
         <p
           className="experience-card-description"
-          style={{ color: theme.text }}
+          style={{ color: theme.text, whiteSpace: "pre-line" }}
         >
           {experience["description"]}
         </p>
