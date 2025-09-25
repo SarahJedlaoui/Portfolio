@@ -468,6 +468,23 @@ const projects = {
     },
     {
       id: "0",
+      name: "Alaska Kenai Adventure lodge",
+      url: "https://www.akalodge.com/",
+      description:
+        "Developed a modern, responsive website for Alaska Kenai Adventures Lodge, showcasing their all-inclusive Alaskan fishing and adventure packages.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "0",
       name: "Sophia.ai Prototype 1 ",
       url: "https://sophiaai.vercel.app/",
       description:
