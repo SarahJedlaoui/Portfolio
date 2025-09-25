@@ -451,23 +451,6 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "PostGen",
-      url: "https://sophia-post.vercel.app/",
-      description:
-        "PostGen helps users turn their thoughts into compelling social media content. By choosing a trending topic and answering a few guided questions, users get AI-generated posts tailored to their voice.",
-      languages: [
-        {
-          name: "Typescript",
-          iconifyClass: "logos-typescript",
-        },
-        {
-          name: "Nextjs",
-          iconifyClass: "logos-nextjs",
-        },
-      ],
-    },
-    {
-      id: "0",
       name: "EasyCollect",
       url: "https://dev-collect.easybank.tn/",
       description:
@@ -493,40 +476,6 @@ const projects = {
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Nextjs",
-          iconifyClass: "logos-nextjs",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "AVS Prototype3",
-      url: "https://avs-3.vercel.app/",
-      description:
-        "This version introduces prompt-building support to help users craft more effective AI queries and enables testing of data extraction workflows.",
-      languages: [
-        {
-          name: "Typescript",
-          iconifyClass: "logos-typescript",
-        },
-        {
-          name: "Nextjs",
-          iconifyClass: "logos-nextjs",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "AVS Prototype2",
-      url: "https://avs-2.vercel.app/",
-      description:
-        "AVS 2.0 is an enhanced After-Visit Summary (AVS) application that allows users to interact directly with AI to extract and personalize their medical information.",
-      languages: [
-        {
-          name: "Typescript",
-          iconifyClass: "logos-typescript",
         },
         {
           name: "Nextjs",
@@ -616,6 +565,57 @@ const projects = {
         {
           name: "MongoDb",
           iconifyClass: "logos-mongodb",
+        },
+      ],
+    },
+    {
+      id: "0",
+      name: "PostGen",
+      url: "https://sophia-post.vercel.app/",
+      description:
+        "PostGen helps users turn their thoughts into compelling social media content. By choosing a trending topic and answering a few guided questions, users get AI-generated posts tailored to their voice.",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "0",
+      name: "AVS Prototype3",
+      url: "https://avs-3.vercel.app/",
+      description:
+        "This version introduces prompt-building support to help users craft more effective AI queries and enables testing of data extraction workflows.",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "AVS Prototype2",
+      url: "https://avs-2.vercel.app/",
+      description:
+        "AVS 2.0 is an enhanced After-Visit Summary (AVS) application that allows users to interact directly with AI to extract and personalize their medical information.",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
         },
       ],
     },
